@@ -2,7 +2,7 @@ const express = require('express')
 const routes = express.Router()
 
 // Transformar esses dados abaixo de acordo com o meu app
-let db - [
+let db = [
     { '1': {Nome: 'Cliente 1', Idade: '15'}},
     { '2': {Nome: 'Cliente 2', Idade: '23'}},
     { '3': {Nome: 'Cliente 3', Idade: '42'}}
