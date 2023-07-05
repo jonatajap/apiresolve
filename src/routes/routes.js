@@ -9,5 +9,6 @@ routes.get("/ping", (req, res) => {
 
 const userController = new UserController();
 routes.post("/users/store", userController.store.bind(userController));
+routes.post("/users/login", userController.login.bind(userController));
 
 export default routes;
