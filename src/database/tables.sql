@@ -16,8 +16,10 @@ CREATE TABLE users (
     name varchar(50), -- nome do usuario
     email varchar(100), -- email do usuario
     password varchar(20), -- senha do usuario
-
     role_id integer REFERENCES roles(id) -- id da role do usuario
+
+    created_at timestamp, -- data de criação do usuario
+    updated_at timestamp, -- data de atualização do usuario
 );
 
 
